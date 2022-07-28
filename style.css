@@ -1,0 +1,291 @@
+html{
+zoom: 100%;
+overflow-x:hidden;
+}
+body{
+background-color: #EAD3B9 ;
+}  
+header{
+position: relative;
+width: 100%;
+top: 0;
+left: 0;
+}
+h1{
+position: absolute;
+width: 60%;
+height: 105px;
+left: 20%;
+top: 169px;
+padding: 10px;
+
+background: #B57957;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+
+/* Gray 6 */
+
+color: #F2F2F2;
+}
+nav{
+position: absolute;
+width: 100%;
+height: 100px;
+left: 0px;
+top: 481px;
+text-align: center;
+background: #B57957;
+}
+
+.nav-link{
+position: relative;
+top: 35px;
+background-color: white;
+color: black;
+text-decoration: none;
+margin: 0px 14px;
+padding: 10px 2%;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+}
+
+.head{
+background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+ url("https://s3-alpha-sig.figma.com/img/5219/d65d/68d463e6b47f38617da53ae561eedff5?Expires=1659312000&Signature=UreIuP3GkNJOWxAqZGg~kfo7fzY2ozymmgUIvkrAdDH8Cp33y1K~KaCVopjtPXf6jCMloK4lVu5hW~vRs2GG7zTFqPan6NbaPr7Khm-luOf4KuhhWU47F-uTbzb59923fzqMZBLlGTaJWdlmfmRW92ELy0x1JPNAxS-wFI7E1utdZex~S7zjI8Id-yXn2J-enpnxGsnnuXg~TWsLa-mn2YwyZJK5aPFLa-CcG6WVwdEnkhCGm3mdF3TEXpBY1Rm3TS3XU0-IqZvHib9nzlMmyokunPb09GNK1zDrE8qc5dXLLAMYWQrJhvCYP8bPOz8lJtmHHkvf3IEPy1bZ-dg-xQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+height: 467px;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+main{
+position: relative;
+width: 100%;
+top: 0;
+left: 0;
+}
+ h2{
+font-family: Roboto;
+font-style: Regular;
+font-size: 48px;
+text-align: Center;
+vertical-align: Top;
+ }
+ h3{
+font-family: Roboto;
+font-style: Regular;
+font-size: 48px;
+text-align: Left;
+vertical-align: Top;
+ }
+  h4{
+font-family: Roboto;
+font-style: Regular;
+font-size: 48px;
+text-align: center;
+vertical-align: Top;
+ }
+  h5{
+font-family: Roboto;
+font-style: Bold;
+font-size: 36px;
+text-align: Left;
+vertical-align: Top;
+ }
+
+.lesson{
+position: absolute;
+top: 150px;
+left:0;
+width: 100%;
+text-align: center;
+}
+
+.less-butt{
+background-color: #C4C4C4;
+color: black;
+text-decoration: none;
+padding: 10px 20px;
+font-family: Roboto;
+font-style: Regular;
+font-size: 24px;
+text-align: Left;
+vertical-align: Top;
+}
+.menu{
+position: absolute;
+top: 450px;
+left: 0;
+
+}
+.menu-cards{
+width: 100%;
+position: relative;
+top: 100px;
+left: 5%;
+}
+.card{
+    position: relative;
+width: 25%;
+height: 250px;
+float: left;
+margin-right: 3%;
+}
+.card img{
+width: 100%;
+height: 350px;
+}
+.card h4{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 27px;
+line-height: 32px;
+
+/* Gray 1 */
+text-align: left;
+color: white;
+}
+.card p{
+    position: absolute;
+ font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+
+.more-butt{
+position: absolute;
+top: 620px;
+background-color: #C4C4C4;
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+padding: 10px 25%;
+color: #000000;
+}
+
+.teach{
+position: absolute;
+top: 1450px;
+left:0;
+width: 100%;
+}
+.teach-div{
+position: relative;
+top: 100px;
+width: 100%;
+}
+.teach-card{
+width: 18%;
+float: left;
+margin: 0px 3%;
+}
+.teach-card img{
+width: 190px;
+height: 190px;
+border-radius: 50%;
+}
+.teach-card p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+}
+.info{
+position: absolute;
+top: 2250px;
+left: 0;
+}
+.info-div{
+width: 40%;
+float: left;
+margin-left: 3%;
+}
+.info-div p{
+font-family: Roboto;
+font-style: Regular;
+font-size: 20px;
+text-align: Left;
+vertical-align: Top;
+}
+.info-img{
+float: right;
+width: 40%;
+}
+.about{
+position: absolute;
+top: 2850px;
+left: 0;
+width: 100%;
+text-align: center;
+}
+.about p{
+font-family: Roboto;
+font-style: Regular;
+font-size: 36px;
+text-align: Center;
+vertical-align: Top;
+}
+
+footer{
+position: relative;
+width: 100%;
+top: 3500px;
+left: 0;
+background: #C4C4C4;
+height:427px;
+}
+.footer-info{
+font-family: 'Roboto';
+font-style: normal;
+position: relative;
+top: 80px;
+left: 5%;
+}
+.footer-info img{
+width: 80px;
+height: 80px;
+}
+footer h5{
+position: relative;
+top: 60px;
+left: 5%;
+}
+.footer-logo{
+position: absolute;
+top: 120px;
+right: 5%;
+}
+
+.nav-link:hover{
+background-color: rgb(214, 214, 214);
+transition: 1s;
+}
+a:hover{
+background-color:white;
+transition: 1s;
+}
+
+.teach img:hover{
+transform: scale(1.4);
+margin-bottom: 20px;
+transition: 0.6s;
+}
